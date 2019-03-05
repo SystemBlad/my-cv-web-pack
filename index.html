@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jaime Luna - Portfolio</title>
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="Jaime Luna - Portfolio">
+    <meta name="Description" content="A simple website to show my work experience"/>
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Jaime Luna - Portfolio" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="A simple website to show my work experience" />
+    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#ffffff">
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#fc5f45">
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">-->
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,600|Poppins:400,500,700' rel='stylesheet'
+          type='text/css'>
+
+</head>
+<body>
+
+<!-- =========================
+ PRE LOADER
+============================== -->
+<div class="preloader">
+    <div class="status">
+        <div class="loader">
+            <svg class="circular" viewbox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10"/>
+            </svg>
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+ SECTION: HOME / HOMEPAGE
+============================== -->
+<section class="home fixed-bg" id="home">
+
+    <div class="color-overlay">
+        <!-- COLOR OVERLAY -->
+
+        <!-- NAVIGATION -->
+        <div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <!-- NAVBAR EXPAND COLLAPSE ON MOBILE -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#alexis-navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon icon-menu"></span>
+                    </button>
+
+                    <!-- LOGO -->
+                    <a class="navbar-brand" href="#">
+                        <img src="${require(`./src/assets/images/logo.png`)}" alt="LOGO">
+                    </a>
+                </div>
+
+                <div class="navbar-collapse collapse" id="alexis-navigation">
+                    <!-- NAVIGATION LINK -->
+                    <ul class="nav navbar-nav navbar-right main-navigation" id="internal-scroll">
+                        <li class="current"><a href="#home">Home</a>
+                        </li>
+                        <li><a href="#section1">About</a>
+                        </li>
+                        <li><a href="#section4">Skills</a>
+                        </li>
+                        <li><a href="#section5">Portfolio</a>
+                        </li>
+
+                        <li><a href="#section10">Contact</a>
+                        </li>
+                        <!-- <li><a href="http://example.com" class="external">External Link Example</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <!-- /END CONTAINER -->
+        </div>
+        <!-- /END NAIVATION -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-md-12">
+
+                    <!-- INTRO HEADING -->
+                    <img src="${require(`./src/assets/images/profile-image.jpg`)}" class="profile-pic" alt="team img 1">
+                    <h6 class="yellow-text uppercase">Software Developer Engineer</h6>
+                    <div class="element">
+                        <div class="sub-element">
+                        </div>
+                    </div>
+                    <h3 class="intro white-text text-center">I can help you build your next software application.</h3>
+                    <!-- CALL TO ACTION -->
+                    <div class="cta smooth-scroll">
+                        <a href="#section5" class="btn btn-default standard-button red-button">My Work</a>
+                        <a href="#section4" class="btn btn-default standard-button green-button">My Skills</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!-- =========================
+ SECTION: ABOUT US
+============================== -->
+<section class="about-us" id="section1">
+
+    <div class="container">
+        <div class="row">
+
+            <!-- FEATURED IMAGE AREA -->
+            <div class="col-lg-6 visible-lg">
+                <div class="featured-image red-gradient-overlay">
+                    <img src="${require(`./src/assets/images/about-us.jpg`)}" alt="">
+                    <!-- ABOUT US FEATURED IMAGE -->
+                    <div class="image-border">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ABOUT US BOX -->
+            <div class="col-lg-7 col-sm-12 overflow-box pull-right">
+                <div class="about-box diffuse-shadow wow fadeInRight" data-wow-offset="30" data-wow-duration="1.5s"
+                     data-wow-delay="0.15s">
+
+                    <div class="about-content">
+
+                        <!-- SECTION NUMBER -->
+                        <div class="section-number">
+                            01
+                        </div>
+
+                        <!-- SECTION HEADING -->
+                        <h2 class="section-heading text-left">About Me.</h2>
+
+                        <!-- PARAGRAPH -->
+                        <p class="text-left">
+                            Over 10 years experience designing, developing and building quality APPs using scrum
+                            methods.
+                            Known for excellent troubleshooting skills, able to analyze code and good researcher of new
+                            technologies.
+                            <br/>
+                            <br/> Always interested in apply the best practices and performance techniques
+                            to get better results in each used technology.
+                        </p>
+                    </div>
+
+                    <div class="four-lines">
+                        <div class="line red-line-bottom">
+                        </div>
+                        <div class="line green-line-bottom">
+                        </div>
+                        <div class="line purple-line-bottom">
+                        </div>
+                        <div class="line yellow-line-bottom">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- =========================
+ SECTION: TEAM
+============================== -->
+<section class="team bgcolor-2" id="section4">
+    <div class="container">
+
+        <!-- SECTION NUMBER -->
+        <div class="section-number centered-number">
+            02
+        </div>
+
+        <!-- SECTION HEADER -->
+        <div class="section-header">
+            <h2>My Skills.</h2>
+            <div class="sub-heading">
+                I understand your requirement and provide quality works.
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <!-- HTML5 -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/react.png`)}" width="80">
+                </div>
+
+                <h5>React Native</h5>
+
+            </div>
+
+            <!-- Angular -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/angular.png`)}" width="80">
+                </div>
+
+                <h5>Angular</h5>
+
+            </div>
+
+            <!-- CSS3 -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/css3.png`)}" width="80">
+                </div>
+
+                <h5>CSS3</h5>
+
+            </div>
+
+            <!-- Bootstrap -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/bootstrap.png`)}" width="80">
+                </div>
+
+                <h5>Bootstrap</h5>
+
+            </div>
+            <hr>
+            ....
+            <br>
+            <!-- Javascript -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/javascript.png`)}" width="80">
+                </div>
+
+                <h5>JavaScript</h5>
+
+            </div>
+
+            <!-- Firebase -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/firebase_logo_shot.png`)}" width="80">
+                </div>
+
+                <h5>Firebase</h5>
+
+            </div>
+
+            <!-- Microsoft Net -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/hire-dotnet.png`)}" width="80">
+                </div>
+
+                <h5>Microsoft Net</h5>
+
+            </div>
+
+            <!-- MS-SQL Server -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/mssql-server.jpg`)}" width="80">
+                </div>
+
+                <h5>MS-SQL Server</h5>
+
+            </div>
+
+            <hr>
+            ....
+            <br>
+            <!-- Android -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/android.png`)}" width="80">
+                </div>
+
+                <h5>Android</h5>
+
+            </div>
+
+            <!-- React Native -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/html5.png`)}" width="80">
+                </div>
+
+                <h5>HTML5</h5>
+
+            </div>
+
+            <!-- Flow -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/GitHub.fw.png`)}" width="80">
+                </div>
+
+                <h5>GitHub</h5>
+
+            </div>
+
+            <!-- Flow -->
+            <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInUp" data-wow-offset="30" data-wow-duration="1.5s"
+                 data-wow-delay="0.15s">
+
+                <div class="stats-icon red-text">
+                    <img src="${require(`./src/assets/images/jest.fw.png`)}" width="80">
+                </div>
+
+                <h5>Jest Testing</h5>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+
+<!-- =========================
+ SECTION: WORK STEPS
+============================== -->
+<section class="work-steps" id="section5">
+    <div class="container">
+
+        <!-- SECTION NUMBER -->
+        <div class="section-number centered-number">
+            03
+        </div>
+
+        <!-- SECTION HEADER -->
+        <div class="section-header">
+            <h2>My Work</h2>
+            <div class="sub-heading">
+                These are the last projects I've been working on.
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="single-project">
+
+                <!-- START EDITING FROM HERE -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="project-image"><img src="${require(`./src/assets/images/projects/4.jpg`)}" alt=""></div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-left">
+                        <h4 style="font-weight: bold ">TrackGTS React-Native Mobile APP</h4>
+                        <p>
+                            This mobile application is a vehicle tracker, the customer can interact in real time with
+                            their vehicles fleet.
+                        </p>
+                        <a href="https://play.google.com/store/apps/details?id=com.trackgts.app&hl=en" target="_blank"
+                           class="btn btn-warning">
+                            Play Store
+                        </a>
+
+                        <ul class="project-details-list">
+                            <h5>Technologies</h5>
+                            <li><span class="dark-text">React Native</span></li>
+                            <li><span class="dark-text">Flow - A static checker for JavaScript</span></li>
+                            <li><span class="dark-text">JavaScript</span></li>
+                            <li><span class="dark-text">Jest - JavaScript Testing</span></li>
+                            <li><span class="dark-text">ASP.NET Web APIs</span></li>
+                            <li><span class="dark-text">Microsoft SQL Server</span></li>
+                            <li><span class="dark-text">npm - Package Manager and Installer</span></li>
+                            <li><span class="dark-text">ESLint - An JavaScript linting utility </span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="container">
+            <div class="single-project">
+
+                <!-- START EDITING FROM HERE -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="project-image"><img src="${require(`./src/assets/images/projects/1.jpg`)}" alt=""></div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-left">
+                        <h4 style="font-weight: bold ">OnStar (Brazil - Argentina)</h4>
+                        <p>
+                            Web Application, used in Brazil and Argentina countries, it allows
+                            execute actions in the vehicle such as: locate, see diagnosis, open and close doors.
+                            The customer can see in real time the location of the vehicles in his fleet
+                        </p>
+                        <a href="https://onstarcliente.com.br/index.html" target="_blank" class="btn btn-warning">
+                            View online
+                        </a>
+                        <ul class="project-details-list">
+                            <h5>Technologies</h5>
+                            <li><span class="dark-text">HTML5 - CSS3</span></li>
+                            <li><span class="dark-text">JavaScript - Angular JS - Leaflet JS</span></li>
+                            <li><span class="dark-text">Bootstrap</span></li>
+                            <li><span class="dark-text">SQL Server - Web API c#</span></li>
+                            <li><span class="dark-text">TFS - Grunt - NPM - Bower</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="container">
+            <div class="single-project">
+
+                <!-- START EDITING FROM HERE -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="project-image"><img src="${require(`./src/assets/images/projects/3.jpg`)}" alt=""></div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-left">
+                        <h4 style="font-weight: bold ">Kawsafoods React-Native Mobile APP</h4>
+                        <p>
+                            This mobile application is an online store, client can order products. It works in
+                            conjunction with an
+                            angular application where the administrator can see all pending orders.
+                        </p>
+                        <a href="https://play.google.com/store/apps/details?id=kawsafoods.com&hl=en-GB&ah=V6y1pVBVTHuZKonbp7jbcImBMJU"
+                           target="_blank" class="btn btn-warning">
+                            Download App
+                        </a>
+                        <a href="https://fir-react-native-f1e45.firebaseapp.com/" target="_blank"
+                           class="btn btn-warning">
+                            View online
+                        </a>
+
+                        <ul class="project-details-list">
+                            <h5>Technologies</h5>
+                            <li><span class="dark-text">React Native - Android</span></li>
+                            <li><span class="dark-text">HTML5 - CSS3</span></li>
+                            <li><span class="dark-text">JavaScript - Angular JS</span></li>
+                            <li><span class="dark-text">Material Design</span></li>
+                            <li><span class="dark-text">FireBase</span></li>
+                            <li><span class="dark-text">Angular CLI - WebPack - SVN</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+        <div class="container">
+            <div class="single-project">
+
+                <!-- START EDITING FROM HERE -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="project-image"><img src="${require(`./src/assets/images/projects/2.jpg`)}" alt=""></div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-left">
+                        <h4 style="font-weight: bold ">ChevyStar (Colombia - Ecuador)</h4>
+                        <p>
+                            Web Application, used in Colombia and Ecuador countries, it allows
+                            execute actions in the vehicle such as: locate, see diagnosis, open and close doors.
+                            The customer can see in real time the location of the vehicles in his fleet
+                        </p>
+                        <a href="https://map.michevystar.com/LocatorWebApp/" target="_blank" class="btn btn-warning">
+                            View online
+                        </a>
+                        <ul class="project-details-list">
+                            <h5>Technologies</h5>
+                            <li><span class="dark-text">HTML5 - CSS3</span></li>
+                            <li><span class="dark-text">JavaScript - Angular JS - Leaflet JS</span></li>
+                            <li><span class="dark-text">Bootstrap</span></li>
+                            <li><span class="dark-text">SQL Server - Web API c#</span></li>
+                            <li><span class="dark-text">TFS - Grunt - NPM - Bower</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- =========================
+ SECTION: CONTACT US
+============================== -->
+<section class="get-in-touch" id="section10">
+    <div class="container">
+
+        <!-- SECTION NUMBER -->
+        <div class="section-number centered-number">
+            04
+        </div>
+
+        <!-- SECTION HEADER -->
+        <div class="section-header">
+            <h2>Get in Touch</h2>
+            <div class="sub-heading">
+                I understand your requirement and provide quality works.
+            </div>
+        </div>
+        <div class="row focuses">
+
+            <a href="https://www.linkedin.com/in/jaime-luna-c-7022a968/?locale=en_US" target="_blank">
+                <!-- SINGLE FOCUS COLUMN -->
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="single-focus white-bg diffuse-shadow red-line-bottom wow fadeInLeft"
+                         data-wow-offset="30"
+                         data-wow-duration="1.5s" data-wow-delay="0.15s">
+                        <!-- ICON -->
+                        <div class="icon blue-text">
+                            <span class="icon icon-social-linkedin-square"></span>
+                        </div>
+                        <!-- HEADING -->
+                        <h5>Linkedin</h5>
+                        <!-- DETAILS -->
+                        <p>
+                            jaime-luna-c-7022a968
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- SINGLE FOCUS COLUMN -->
+            <a href="https://github.com/SystemBlad" target="_blank">
+                <!-- SINGLE FOCUS COLUMN -->
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="single-focus white-bg diffuse-shadow green-line-bottom wow fadeInLeft"
+                         data-wow-offset="30"
+                         data-wow-duration="1.5s" data-wow-delay="0.15s">
+                        <!-- ICON -->
+                        <div class="icon dark-text">
+                            <span class="icon icon-github-alt"></span>
+                        </div>
+                        <!-- HEADING -->
+                        <h5>GitHub</h5>
+                        <!-- DETAILS -->
+                        <p>
+                            SystemBlad
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- SINGLE FOCUS COLUMN -->
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="single-focus white-bg diffuse-shadow purple-line-bottom wow fadeInDown" data-wow-offset="30"
+                     data-wow-duration="1.5s" data-wow-delay="0.15s">
+                    <!-- ICON -->
+                    <div class="icon green-text">
+                        <span class="icon icon-whatsapp"></span>
+                    </div>
+                    <!-- HEADING -->
+                    <h5>Whatsapp</h5>
+                    <!-- DETAILS -->
+                    <p>
+                        +593-998080497
+                    </p>
+                </div>
+            </div>
+
+            <!-- SINGLE FOCUS COLUMN -->
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="single-focus white-bg diffuse-shadow yellow-line-bottom wow fadeInRight"
+                     data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+                    <!-- ICON -->
+                    <div class="icon blue-text">
+                        <span class="icon icon-social-skype"></span>
+                    </div>
+                    <!-- HEADING -->
+                    <h5>Skype</h5>
+                    <!-- DETAILS -->
+                    <p>
+                        jaime.luna30
+                    </p>
+                </div>
+            </div>
+
+            <!-- SINGLE FOCUS COLUMN -->
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="single-focus white-bg diffuse-shadow green-line-bottom wow fadeInUp" data-wow-offset="30"
+                     data-wow-duration="1.5s" data-wow-delay="0.15s">
+                    <!-- ICON -->
+                    <div class="icon yellow-text">
+                        <span class="icon icon-mail-open-file"></span>
+                    </div>
+                    <!-- HEADING -->
+                    <h5>E-Mail</h5>
+                    <!-- DETAILS -->
+                    <p>
+                        jaimelunaec@hotmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="myAlert-bottom alert alert-warning">
+    <span class="icon icon-social-skype"> jaime.luna30 &nbsp; </span>
+    <a id="dcv"  download="jaime_luna_CV"><span class="icon icon-download-regular">Download CV</span></a>
+    <br/>
+    <span class="icon icon-mail-open"> jaimelunaec@hotmail.com</span>
+</div>
+<!-- =========================
+ JS SCRIPTS
+============================== -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53075604-3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-53075604-3');
+
+</script>
+
+</body>
+</html>
