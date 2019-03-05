@@ -6,8 +6,10 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "webpack-dev-server --config webpack.dev.js --mode development",
+        "flow": "flow",
         "build": "webpack --config webpack.prod.js --mode production",
-        "preview": "npm run build && http-server dist"
+        "preview": "npm run build && http-server dist",
+        "buildBabel": "babel src/ -d lib/"
     },
     "repository": {
         "type": "git",
@@ -30,15 +32,24 @@
     "devDependencies": {
         "ajv": "^6.3.0",
         "autoprefixer": "^9.3.1",
+        "babel-cli": "^6.26.0",
         "babel-core": "^6.26.3",
         "babel-loader": "^7.1.4",
         "babel-preset-env": "^1.7.0",
+        "babel-preset-flow": "^6.23.0",
         "clean-webpack-plugin": "^0.1.19",
         "css-loader": "^0.28.11",
         "cssnano": "^3.10.0",
+        "eslint": "^5.15.1",
+        "eslint-config-standard": "^12.0.0",
+        "eslint-plugin-import": "^2.16.0",
+        "eslint-plugin-node": "^8.0.1",
+        "eslint-plugin-promise": "^4.0.1",
+        "eslint-plugin-standard": "^4.0.0",
         "expose-loader": "^0.7.5",
         "favicons-webpack-plugin": "0.0.9",
         "file-loader": "^1.1.11",
+        "flow-bin": "^0.94.0",
         "html-webpack-plugin": "^3.1.0",
         "http-server": "^0.11.1",
         "mini-css-extract-plugin": "^0.5.0",
