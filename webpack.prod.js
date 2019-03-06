@@ -6,6 +6,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const webpack = require("webpack");
+const CompressionPlugin = require('compression-webpack-plugin')
+
 
 const buildPath = path.resolve(__dirname, 'dist');
 
@@ -87,6 +89,7 @@ module.exports = {
             $: 'jquery',
             jQuery: 'jquery'
         }),
+        new CompressionPlugin(),
         new HtmlWebpackPlugin({
             template: './index.html',
             // Inject the js bundle at the end of the body of the given template
