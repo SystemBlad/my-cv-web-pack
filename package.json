@@ -1,6 +1,8 @@
 {
-    "name": "my-cv",
-    "version": "2.0.0",
+    "name": "my-cv-web-pack",
+    "version": "1.0.0",
+    "private": true,
+    "homepage": "http://SystemBlad.github.io/my-cv-web-pack",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -9,7 +11,8 @@
         "flow": "flow",
         "build": "webpack --config webpack.prod.js --mode production",
         "preview": "npm run build && http-server dist",
-        "buildBabel": "babel src/ -d lib/"
+        "buildBabel": "babel src/ -d lib/",
+        "deploy": "gh-pages -d dist"
     },
     "repository": {
         "type": "git",
@@ -21,7 +24,6 @@
     "bugs": {
         "url": ""
     },
-    "homepage": "",
     "dependencies": {
         "bootstrap": "^3.3.6",
         "jquery": "^3.3.1",
@@ -50,6 +52,7 @@
         "favicons-webpack-plugin": "0.0.9",
         "file-loader": "^1.1.11",
         "flow-bin": "^0.94.0",
+        "gh-pages": "^2.0.1",
         "html-webpack-plugin": "^3.1.0",
         "http-server": "^0.11.1",
         "mini-css-extract-plugin": "^0.5.0",
