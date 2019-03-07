@@ -1,5 +1,5 @@
 // @flow
-import 'jquery';
+import 'jquery/dist/jquery.slim.min';
 import 'bootstrap';
 import Wow from 'wow.js';
 import Typed from 'typed.js';
