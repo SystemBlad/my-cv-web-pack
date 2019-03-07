@@ -1,0 +1,17 @@
+.android-fw, .angular-fw, .bootstrap-fw, .css3-fw, .firebase-fw,
+.github-fw, .html5-fw, .javascript-fw, .jest-fw, .microsoftnet-fw,
+.microsoftsqlserver-fw, .react-fw
+{ display: inline-block; background: url('../assets/images/skills.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.android-fw { background-position: -2px -0px; width: 80px; height: 80px; }
+.angular-fw { background-position: -84px -0px; width: 80px; height: 80px; }
+.bootstrap-fw { background-position: -166px -0px; width: 80px; height: 80px; }
+.css3-fw { background-position: -2px -82px; width: 80px; height: 80px; }
+.firebase-fw { background-position: -84px -82px; width: 80px; height: 80px; }
+.github-fw { background-position: -166px -82px; width: 80px; height: 80px; }
+.html5-fw { background-position: -2px -164px; width: 80px; height: 80px; }
+.javascript-fw { background-position: -84px -164px; width: 80px; height: 80px; }
+.jest-fw { background-position: -166px -164px; width: 80px; height: 80px; }
+.microsoftnet-fw { background-position: -2px -246px; width: 80px; height: 80px; }
+.microsoftsqlserver-fw { background-position: -84px -246px; width: 80px; height: 80px; }
+.react-fw { background-position: -166px -246px; width: 80px; height: 80px; }

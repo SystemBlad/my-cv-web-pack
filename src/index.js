@@ -9,6 +9,7 @@ import './assets/icons/styles.css';
 import './styles/third-party.css';
 import './styles/index.scss';
 import './styles/responsive.css';
+import './styles/sprite.css';
 
 
 document.addEventListener("DOMContentLoaded", () => {
