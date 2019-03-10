@@ -9,6 +9,19 @@ Author: Mizanur Rahman
    1. GLOBAL STYLES AND FIXES
 =========================================
 -----------------------------------------*/
+
+.sprite {display: inline-block; vertical-align: middle;}
+.sprite {background-image: url(../assets/images/d806f58f301b902f79bf6b724f8f9987.jpg); background-position: left center; background-repeat: no-repeat;}
+.sprite.about_us_jpg {background-position: 0 0; width: 555px; height: 700px;}
+.sprite.bg2_jpg {background-position: 0 -701px; width: 1920px; height: 1100px;}
+.sprite.bg6_jpg {background-position: 0 -1802px; width: 2200px; height: 1467px;}
+.sprite.project1_jpg {background-position: 0 -3270px; width: 400px; height: 320px;}
+.sprite.project3_jpg {background-position: 0 -3591px; width: 400px; height: 537px;}
+.sprite.project4_jpg {background-position: 0 -4129px; width: 400px; height: 537px;}
+.sprite.profile_image_jpg {background-position: 0 -4667px; width: 200px; height: 191px;}
+.sprite.project2_jpg {background-position: 0 -4859px; width: 400px; height: 320px;}
+
+
 /*---------------------------------------
    1.1 HTML, BODY & PRE LOADER
 -----------------------------------------*/
