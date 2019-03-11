@@ -10,18 +10,6 @@ Author: Mizanur Rahman
 =========================================
 -----------------------------------------*/
 
-.sprite {display: inline-block; vertical-align: middle;}
-.sprite {background-image: url(../assets/images/d806f58f301b902f79bf6b724f8f9987.jpg); background-position: left center; background-repeat: no-repeat;}
-.sprite.about_us_jpg {background-position: 0 0; width: 555px; height: 700px;}
-.sprite.bg2_jpg {background-position: 0 -701px; width: 1920px; height: 1100px;}
-.sprite.bg6_jpg {background-position: 0 -1802px; width: 2200px; height: 1467px;}
-.sprite.project1_jpg {background-position: 0 -3270px; width: 400px; height: 320px;}
-.sprite.project3_jpg {background-position: 0 -3591px; width: 400px; height: 537px;}
-.sprite.project4_jpg {background-position: 0 -4129px; width: 400px; height: 537px;}
-.sprite.profile_image_jpg {background-position: 0 -4667px; width: 200px; height: 191px;}
-.sprite.project2_jpg {background-position: 0 -4859px; width: 400px; height: 320px;}
-
-
 /*---------------------------------------
    1.1 HTML, BODY & PRE LOADER
 -----------------------------------------*/
@@ -705,7 +693,7 @@ section {
    2.1 SECTION: HOME PAGE
 -----------------------------------------*/
 .home {
-    background: url(../assets/images/backgrounds/1.jpg) no-repeat top;
+    background: url(../assets/images/bg2-min.jpg) no-repeat top;
     background-size: cover;
 }
 
@@ -747,7 +735,7 @@ section {
 
 /* LOGO AND STICKY NAVIGATION */
 .sticky-navigation {
-    background: #ffffff;
+    background: antiquewhite;
     min-height: 75px;
     border-bottom: 0;
     -webkit-backface-visibility: hidden;
@@ -1709,7 +1697,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
    2.14 SECTION: FOOTER
 -----------------------------------------*/
 .get-in-touch {
-    background: url(../assets/images/backgrounds/6.jpg) no-repeat top;
+    background: url(../assets/images/bg6-min.jpg) no-repeat top;
     background-size: cover;
     padding-top: 114px;
     padding-bottom: 150px;
@@ -1806,7 +1794,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .profile-pic {
     box-shadow: 0px 4px 6px 2px lightgrey;
-    border-radius: 50%;
 }
 
 .element {
@@ -1840,7 +1827,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     font-size: 12px;
     text-align: left;
     color: #fc5f45;
-    background-color: rgba(252,248,227,0.8);
+    background-color: rgba(252, 248, 227, 0.8);
 }
 
 .alert {
@@ -1848,4 +1835,65 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     padding-top: 0;
     padding-bottom: 0;
 
+}
+
+.css-sprite-about-us {
+    background: url('../assets/images/css-sprite-combined.jpg') -2px -0px;
+    width: 555px;
+    height: 700px;
+    display: inline-block;
+}
+
+.css-sprite-profile-image {
+    background: url('../assets/images/css-sprite-combined.jpg') -559px -509px;
+    width: 200px;
+    height: 191px;
+    display: inline-block;
+}
+
+.css-sprite-project1 {
+    background: url('../assets/images/css-sprite-combined.jpg') -761px -220px;
+    width: 320px;
+    height: 480px;
+    display: inline-block;
+}
+
+.css-sprite-project2 {
+    background: url('../assets/images/css-sprite-combined.jpg') -1083px -220px;
+    width: 320px;
+    height: 480px;
+    display: inline-block;
+}
+
+.css-sprite-project3 {
+    background: url('../assets/images/css-sprite-combined.jpg') -1405px -220px;
+    width: 320px;
+    height: 480px;
+    display: inline-block;
+}
+
+.css-sprite-project4 {
+    background: url('../assets/images/css-sprite-combined.jpg') -1727px -220px;
+    width: 320px;
+    height: 480px;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 480px) {
+    .profile-pic {
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .myAlert-bottom {
+        transform: translate(-30%, 0);
+        left: 35%;
+        margin-bottom: -8px;
+        text-align: center;
+    }
+}
+
+.navbar-brand {
+    margin-top: -10px;
 }
