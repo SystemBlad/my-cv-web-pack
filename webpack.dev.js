@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const webpack = require("webpack");
 module.exports = {
+    mode: "development",
     devtool: 'eval-cheap-module-source-map',
     entry: './src/index.js',
     devServer: {
@@ -19,9 +20,6 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader',
-                options: {
-                    presets: ['env']
-                }
             },
             {
                 test: /\.(scss|css)$/,

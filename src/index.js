@@ -1,12 +1,14 @@
 // @flow
 import 'jquery/dist/jquery.slim.min';
-import 'bootstrap';
+// import 'bootstrap/dist/js/bootstrap.min';
+import 'bootstrap/js/collapse';
+import 'bootstrap/js/dropdown';
 import Wow from 'wow.js';
 import Typed from 'typed.js';
 import homeIcon from '../src/assets/Jaime-Luna-CV.pdf';
 import 'normalize.css/normalize.css';
+import 'animate.css/animate.min.css';
 import './assets/icons/styles.css';
-// import './styles/third-party.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.scss';
 import './styles/responsive.css';
@@ -30,11 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     /* =================================
    ANIMATION
 =================================== */
-    let wow = new Wow(
-        {
-            mobile: false  // trigger animations on mobile devices (default is true)
-        }
-    );
+    let wow = new Wow();
     wow.init();
 
     /* start typed element */

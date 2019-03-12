@@ -12,6 +12,7 @@ const CompressionPlugin = require('compression-webpack-plugin')
 const buildPath = path.resolve(__dirname, 'dist');
 
 module.exports = {
+    mode: "production",
     devtool: 'source-map',
     entry: './src/index.js',
     output: {
@@ -28,9 +29,6 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: 'babel-loader',
 
-                options: {
-                    presets: ['env']
-                }
             },
             {
                 test: /\.(scss|css|sass)$/,
@@ -95,7 +93,7 @@ module.exports = {
             // Inject the js bundle at the end of the body of the given template
             inject: 'body',
         }),
-        new CleanWebpackPlugin(buildPath),
+        new CleanWebpackPlugin(),
         new FaviconsWebpackPlugin({
             // Your source logo
             logo: './src/assets/images/favicons/favicon-152-2.png',
