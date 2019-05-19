@@ -1837,48 +1837,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 }
 
-.css-sprite-about-us {
-    background: url('../assets/images/css-sprite-combined.jpg') -2px -0px;
-    width: 555px;
-    height: 700px;
-    display: inline-block;
-}
-
-.css-sprite-profile-image {
-    background: url('../assets/images/css-sprite-combined.jpg') -559px -509px;
-    width: 200px;
-    height: 191px;
-    display: inline-block;
-}
-
-.css-sprite-project1 {
-    background: url('../assets/images/css-sprite-combined.jpg') -761px -220px;
-    width: 320px;
-    height: 480px;
-    display: inline-block;
-}
-
-.css-sprite-project2 {
-    background: url('../assets/images/css-sprite-combined.jpg') -1083px -220px;
-    width: 320px;
-    height: 480px;
-    display: inline-block;
-}
-
-.css-sprite-project3 {
-    background: url('../assets/images/css-sprite-combined.jpg') -1405px -220px;
-    width: 320px;
-    height: 480px;
-    display: inline-block;
-}
-
-.css-sprite-project4 {
-    background: url('../assets/images/css-sprite-combined.jpg') -1727px -220px;
-    width: 320px;
-    height: 480px;
-    display: inline-block;
-}
-
 @media only screen and (min-width: 480px) {
     .profile-pic {
         border-radius: 50%;
@@ -1897,3 +1855,63 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .navbar-brand {
     margin-top: -10px;
 }
+
+//SPRITE BEGIN
+.css-sprite-profile-image
+{
+    background:url('../assets/images/css-sprite-combined.jpg') 0px -509px;
+    width:200px;height:191px;
+    display:inline-block;
+}
+
+.css-sprite-project1
+{
+    background:url('../assets/images/css-sprite-combined.jpg') -200px -220px;
+    width:320px;height:480px;
+    display:inline-block;
+}
+
+.css-sprite-project2
+{
+    background:url('../assets/images/css-sprite-combined.jpg') -520px -220px;
+    width:320px;height:480px;
+    display:inline-block;
+}
+
+.css-sprite-project3
+{
+    background:url('../assets/images/css-sprite-combined.jpg') -840px -220px;
+    width:320px;height:480px;
+    display:inline-block;
+}
+
+.css-sprite-project4
+{
+    background:url('../assets/images/css-sprite-combined.jpg') -1160px -220px;
+    width:320px;height:480px;
+    display:inline-block;
+}
+
+.css-sprite-project5
+{
+    background:url('../assets/images/css-sprite-combined.jpg') -1480px -220px;
+    width:320px;height:480px;
+    display:inline-block;
+}
+
+.css-sprite-project6
+{
+    background:url('../assets/images/css-sprite-combined.jpg') -1800px -220px;
+    width:320px;height:480px;
+    display:inline-block;
+}
+
+.css-sprite-about-us
+{
+    background:url('../assets/images/css-sprite-combined.jpg') -2120px -0px;
+    width:555px;height:700px;
+    display:inline-block;
+}
+
+
+//SPRITE END
