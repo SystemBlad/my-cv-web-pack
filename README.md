@@ -1,4 +1,4 @@
-## Small Portfolio Site
+# Small Portfolio Site
 ## Motivation
 
 Build a site to show my software developer experience
@@ -19,6 +19,6 @@ Build a site to show my software developer experience
 # Notes:
 ## Sprite:
 
-* Sprite Helper: https://cssspritestool.com/
+* Sprite Helper: https://cssspritestool.com/ https://iconizr.com/
 * Replace CSS sprite using complete path combined image.
 
