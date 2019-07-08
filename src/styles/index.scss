@@ -1856,7 +1856,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     margin-top: -10px;
 }
 
-//SPRITE BEGIN
 .css-sprite-profile-image
 {
     background:url('../assets/images/sourceCode.svg');
@@ -1864,54 +1863,64 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     display:inline-block;
 }
 
-.css-sprite-project1
-{
-    background:url('../assets/images/css-sprite-combined.jpg') -200px -220px;
-    width:320px;height:480px;
-    display:inline-block;
-}
-
-.css-sprite-project2
-{
-    background:url('../assets/images/css-sprite-combined.jpg') -520px -220px;
-    width:320px;height:480px;
-    display:inline-block;
-}
-
+//SPRITE BEGIN
 .css-sprite-project3
 {
-    background:url('../assets/images/css-sprite-combined.jpg') -840px -220px;
+    background:url('../assets/images/css-sprite-combined.jpg') 0px -220px;
     width:320px;height:480px;
     display:inline-block;
 }
 
 .css-sprite-project4
 {
-    background:url('../assets/images/css-sprite-combined.jpg') -1160px -220px;
+    background:url('../assets/images/css-sprite-combined.jpg') -320px -220px;
     width:320px;height:480px;
     display:inline-block;
 }
 
 .css-sprite-project5
 {
-    background:url('../assets/images/css-sprite-combined.jpg') -1480px -220px;
+    background:url('../assets/images/css-sprite-combined.jpg') -640px -220px;
     width:320px;height:480px;
     display:inline-block;
 }
 
 .css-sprite-project6
 {
-    background:url('../assets/images/css-sprite-combined.jpg') -1800px -220px;
+    background:url('../assets/images/css-sprite-combined.jpg') -960px -220px;
     width:320px;height:480px;
     display:inline-block;
 }
 
-.css-sprite-about-us
+.css-sprite-project7
 {
-    background:url('../assets/images/css-sprite-combined.jpg') -2120px -0px;
+    background:url('../assets/images/css-sprite-combined.jpg') -1280px -131px;
+    width:320px;height:569px;
+    display:inline-block;
+}
+
+.css-sprite-project0
+{
+    background:url('../assets/images/css-sprite-combined.jpg') -1600px -0px;
     width:555px;height:700px;
     display:inline-block;
 }
+
+.css-sprite-project1
+{
+    background:url('../assets/images/css-sprite-combined.jpg') -2155px -220px;
+    width:320px;height:480px;
+    display:inline-block;
+}
+
+.css-sprite-project2
+{
+    background:url('../assets/images/css-sprite-combined.jpg') -2475px -220px;
+    width:320px;height:480px;
+    display:inline-block;
+}
+
+
 
 
 //SPRITE END
