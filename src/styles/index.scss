@@ -1856,43 +1856,47 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     margin-top: -10px;
 }
 
+.progress-bar-item {
+    margin-bottom: 40px;
+}
+
 .css-sprite-profile-image
 {
     background:url('../assets/images/sourceCode.svg');
     width:190px;height:190px;
     display:inline-block;
 }
-
+//../assets/images/css-sprite-combined.jpg
 //SPRITE BEGIN
-.css-sprite-project3
+.css-sprite-project4
 {
     background:url('../assets/images/css-sprite-combined.jpg') 0px -220px;
     width:320px;height:480px;
     display:inline-block;
 }
 
-.css-sprite-project4
+.css-sprite-project5
 {
     background:url('../assets/images/css-sprite-combined.jpg') -320px -220px;
     width:320px;height:480px;
     display:inline-block;
 }
 
-.css-sprite-project5
+.css-sprite-project6
 {
     background:url('../assets/images/css-sprite-combined.jpg') -640px -220px;
     width:320px;height:480px;
     display:inline-block;
 }
 
-.css-sprite-project6
+.css-sprite-project7
 {
-    background:url('../assets/images/css-sprite-combined.jpg') -960px -220px;
-    width:320px;height:480px;
+    background:url('../assets/images/css-sprite-combined.jpg') -960px -131px;
+    width:320px;height:569px;
     display:inline-block;
 }
 
-.css-sprite-project7
+.css-sprite-project8
 {
     background:url('../assets/images/css-sprite-combined.jpg') -1280px -131px;
     width:320px;height:569px;
@@ -1920,7 +1924,12 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     display:inline-block;
 }
 
-
+.css-sprite-project3
+{
+    background:url('../assets/images/css-sprite-combined.jpg') -2795px -220px;
+    width:320px;height:480px;
+    display:inline-block;
+}
 
 
 //SPRITE END
