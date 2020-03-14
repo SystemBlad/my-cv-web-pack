@@ -31,3 +31,6 @@ SVG Sprite:
     
 * Replace CSS sprite using complete path combined image.
 
+firebase login
+firebase init
+firebase deploy
